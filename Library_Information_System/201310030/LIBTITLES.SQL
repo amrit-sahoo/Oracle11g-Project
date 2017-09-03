@@ -1,0 +1,15 @@
+INSERT INTO LIBTITLES VALUES(10008,10,7,'Statistics for Business & Economics',1,'Mark L. Berenson  & David M. Levine',1,'Prentice Hall of India',1990,596,'0-13-319096-X');
+INSERT INTO LIBTITLES VALUES(10104,10,3,'Mathematical Methods for Engineers and Physicists',2,'A. K. Mukhopadhyay',1,'Wheeler',1998,729,'81-7544-136-4');
+INSERT INTO LIBTITLES VALUES(22704,22,342,'Separate Journeys',1,'Dharmarajan, Geeta',1,'StreeKatha',1998,206,'81-85586-79-9');
+INSERT INTO LIBTITLES VALUES(22705,22,342,'Leaves of Life',1,'Dalvi, Jayawant',1,'Disha Books',1998,196,'81-250-1591-4');
+INSERT INTO LIBTITLES VALUES(221161,22,342,'Siddhartha',3,'Hermann Hesse',1,'Penguin Books',1999,132,'0-14-118123-0');
+INSERT INTO LIBTITLES VALUES(10032,10,5,'Theory & Problems of Complex Variables',4,'Murray R. Spiegel',1,'Tata McGraw-Hill',1997,313,'0-07-099010-7');
+INSERT INTO LIBTITLES VALUES(222092,22,378,'Logic and Knowledge',1,'Bertrand Russell',1,'Routledge',2001,382,'0-415-090074-1');
+INSERT INTO LIBTITLES VALUES(10001,10,3,'Advanced Engineering Mathematics (5th Edn)',106,'Erwin Kreyszig',5,'New Age',1997,50,'81-224-0016-7');
+INSERT INTO LIBTITLES VALUES(222159,22,383,'Teller of Tales, The Life of Arthur Conan Doyle',1,'Daniel Stashower',1,'Penguin Books',2000,472,'0-14-028574-1');
+INSERT INTO LIBTITLES VALUES(222189,22,384,'Shock and Aw! Joke Book',1,'Suhel Seth',1,'Roli Books',2003,95,'81-7436-270-3');
+INSERT INTO LIBTITLES VALUES(10212,10,4,'Chaos An Introduction to dynamical Systems',1,'Kathleen T. Alligood, Tim D. Sauer, & James A. Yorke',1,'Springer',1996,603,'3-540-78036-X');
+INSERT INTO LIBTITLES VALUES(10233,10,5,'Textbook of Functional Analysis A Problem-oriented approach',1,'V. K. Krishnan',1,'Prentice Hall',2001,394,'81-203-1627-4');
+INSERT INTO LIBTITLES VALUES(10248,10,9,'Linear Algebra',1,'C. Y. Hsiung, & G. Y. Mao',1,'Allied Pub.',2003,444,'81-7764-458-0');
+INSERT INTO LIBTITLES VALUES(222328,22,383,'Autobiography of Pandit Nilakantha Das (Script Oriya)',1,'Pandit Nilakantha Das',1,'Cuttack Students Store',2003,1,'------------------');
+INSERT INTO LIBTITLES VALUES(222454,22,380,'Dances of India (Kathak)',1,'Shovana Narayan',1,'Wisdom Tree',2004,94,'81-86685-14-6');

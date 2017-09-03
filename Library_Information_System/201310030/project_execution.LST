@@ -1,0 +1,1293 @@
+SQL> @ d:/amrit/report1.sql;
+
+SYSDATE                                                                                                                 
+---------                                                                                                               
+06-JUN-14                                                                                                               
+
+
+                                                      FINE DETAILS                                                      
+                                      National Institute of Science and Technology                                      
+06-JUN-14                                    Palur Hills, Berhampur- 761008                                             
+   USER ID USER NAME            FINE AMMOUNT                                                                            
+---------- -------------------- ------------                                                                            
+ 200425252 Sagar Ranjan Das              325                                                                            
+**********                      ------------                                                                            
+sum                                      325                                                                            
+ 200014043 Suprabha Kumari Sahu           36                                                                            
+**********                      ------------                                                                            
+sum                                       36                                                                            
+ 200014040 Rabindra K. Dikshit            72                                                                            
+           Rabindra K. Dikshit            14                                                                            
+**********                      ------------                                                                            
+sum                                       86                                                                            
+ 200475280 Kiran Dash                     18                                                                            
+**********                      ------------                                                                            
+sum                                       18                                                                            
+ 200014042 B. Srikrishna                   1                                                                            
+           B. Srikrishna                 308                                                                            
+**********                      ------------                                                                            
+sum                                      309                                                                            
+                                                                                                    PAGE NO:-          1
+
+7 rows selected.
+
+SQL> @ d:/amrit/report2.sql;
+
+SYSDATE                                                                                                                 
+---------                                                                                                               
+06-JUN-14                                                                                                               
+
+
+                                                      FINE DETAILS                                                      
+                                      National Institute of Science and Technology                                      
+06-JUN-14                                    Palur Hills, Berhampur- 761008                                             
+L    USER ID FINE AMMOUNT                                                                                               
+- ---------- ------------                                                                                               
+D  200014040           14                                                                                               
+   200014042          308                                                                                               
+   200014043           36                                                                                               
+   200475280           18                                                                                               
+   200014042            1                                                                                               
+*            ------------                                                                                               
+s                     377                                                                                               
+L  200014040           72                                                                                               
+   200425252          325                                                                                               
+                       78                                                                                               
+*            ------------                                                                                               
+s                     475                                                                                               
+                                                                                                    PAGE NO:-          1
+
+8 rows selected.
+
+SQL> @ d:/amrit/report3.sql;
+
+SYSDATE                                                                                                                 
+---------                                                                                                               
+06-JUN-14                                                                                                               
+
+
+                                                      FINE DETAILS                                                      
+                                      National Institute of Science and Technology                                      
+06-JUN-14                                    Palur Hills, Berhampur- 761008                                             
+USER CATEG    USER ID USER NAME            FINE AMMOUNT                                                                 
+---------- ---------- -------------------- ------------                                                                 
+FACULTY     200014042 B. Srikrishna                 308                                                                 
+            200014043 Suprabha Kumari Sahu           36                                                                 
+            200014042 B. Srikrishna                   1                                                                 
+**********                                 ------------                                                                 
+sum                                                 345                                                                 
+STAFF       200014040 Rabindra K. Dikshit            72                                                                 
+            200014040 Rabindra K. Dikshit            14                                                                 
+**********                                 ------------                                                                 
+sum                                                  86                                                                 
+STUDENT     200425252 Sagar Ranjan Das              325                                                                 
+            200475280 Kiran Dash                     18                                                                 
+**********                                 ------------                                                                 
+sum                                                 343                                                                 
+                                                                                                    PAGE NO:-          1
+
+7 rows selected.
+
+SQL> @ d:/amrit/report4.sql;
+
+SYSDATE                                                                                                                 
+---------                                                                                                               
+06-JUN-14                                                                                                               
+
+
+                                                      FINE DETAILS                                                      
+                                      National Institute of Science and Technology                                      
+06-JUN-14                                    Palur Hills, Berhampur- 761008                                             
+USER CATEG L FINE AMMOUNT                                                                                               
+---------- - ------------                                                                                               
+FACULTY    D          308                                                                                               
+FACULTY                36                                                                                               
+FACULTY                 1                                                                                               
+           * ------------                                                                                               
+           s          345                                                                                               
+STAFF      L           72                                                                                               
+           * ------------                                                                                               
+           s           72                                                                                               
+STAFF      D           14                                                                                               
+           * ------------                                                                                               
+           s           14                                                                                               
+STUDENT    L          325                                                                                               
+           * ------------                                                                                               
+           s          325                                                                                               
+STUDENT    D           18                                                                                               
+           * ------------                                                                                               
+           s           18                                                                                               
+                                                                                                    PAGE NO:-          1
+
+7 rows selected.
+
+SQL> @ d:/amrit/report5.sql;
+
+SYSDATE                                                                                                                 
+---------                                                                                                               
+06-JUN-14                                                                                                               
+
+
+                                                      FINE DETAILS                                                      
+                                      National Institute of Science and Technology                                      
+06-JUN-14                                    Palur Hills, Berhampur- 761008                                             
+   USER ID USER NAME            SUM(LFFINEAMT)                                                                          
+---------- -------------------- --------------                                                                          
+ 200425252 Sagar Ranjan Das                325                                                                          
+                                                                                                    PAGE NO:-          1
+
+SQL> @ d:/amrit/report6.sql;
+SP2-0310: unable to open file "d:/amrit/report6.sql"
+SQL> @ d:/amrit/report7.sql;
+
+SYSDATE                                                                                   
+---------                                                                                 
+06-JUN-14                                                                                 
+
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+    USERID USERNAME             L   NET_FINE                                              
+---------- -------------------- - ----------                                              
+ 200014042 B. Srikrishna        D        308                                              
+ 200425252 Sagar Ranjan Das     L        325                                              
+                                                                       PAGE NO:-         1
+
+SQL> @ d:/amrit/report8.sql;
+
+SYSDATE                                                                                   
+---------                                                                                 
+06-JUN-14                                                                                 
+
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+LUUSERCAT      USERID USERNAME               NET_FINE                                     
+---------- ---------- -------------------- ----------                                     
+STUDENT     200425252 Sagar Ranjan Das            325                                     
+STAFF       200014040 Rabindra K. Dikshit          72                                     
+FACULTY     200014042 B. Srikrishna               308                                     
+                                                                       PAGE NO:-         1
+
+SQL> @ d:/amrit/report9.sql;
+
+SYSDATE                                                                                   
+---------                                                                                 
+06-JUN-14                                                                                 
+
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+  LUUSERID LUUSERNAME                MONTH   FINE_AMT                                     
+---------- -------------------- ---------- ----------                                     
+ 200014043 Suprabha Kumari Sahu         10         36                                     
+ 200425252 Sagar Ranjan Das              9        325                                     
+ 200014040 Rabindra K. Dikshit           2         14                                     
+ 200014042 B. Srikrishna                 2        308                                     
+ 200475280 Kiran Dash                    3         18                                     
+ 200014040 Rabindra K. Dikshit           7         72                                     
+                                                                       PAGE NO:-         1
+
+6 rows selected.
+
+SQL> @ d:/amrit/report11.sql;
+
+SYSDATE                                                                                   
+---------                                                                                 
+06-JUN-14                                                                                 
+
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+BKINDEXNUM                                                                                
+----------                                                                                
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TOPICNAME                      SUBJECTNAME                                                
+------------------------------ --------------------                                       
+ 522116102                                                                                
+Siddhartha                                                                                
+NA                             ENGLISH LITERATURE                                         
+                                                                                          
+                                                                       PAGE NO:-         1
+
+SQL> @ d:/amrit/report12.sql;
+
+SYSDATE                                                                                   
+---------                                                                                 
+06-JUN-14                                                                                 
+
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+SYSDATE                                                                                   
+---------                                                                                 
+06-JUN-14                                                                                 
+                                                                       PAGE NO:-         1
+
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+SYSDATE                                                                                   
+---------                                                                                 
+06-JUN-14                                                                                 
+                                                                       PAGE NO:-         1
+
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+  LUUSERID LUUSERNAME                                                                     
+---------- --------------------                                                           
+ 199657143 Suprabha Kumari Sahu                                                           
+ 199687117 Vandana Padhi                                                                  
+ 200014041 G. JayaLakshmi                                                                 
+ 200475356 Ragini Banerjee                                                                
+ 200475376 Akankshaya Pandey                                                              
+ 200475300 Sangeeta Panigrahi                                                             
+ 200475312 Gayatri Sahu                                                                   
+ 200475328 Lisashree Mishra                                                               
+ 200475332 Koel Singh                                                                     
+ 200475308 Mousumi Bej                                                                    
+                                                                       PAGE NO:-         1
+
+10 rows selected.
+
+SQL> @ d:/amrit/report14.sql;
+SP2-0310: unable to open file "d:/amrit/report14.sql"
+SQL> @ d:/amrit/report13.sql;
+
+SYSDATE                                                                                   
+---------                                                                                 
+06-JUN-14                                                                                 
+
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+  LUUSERID LUUSERNAME                                                                     
+---------- --------------------                                                           
+ 200014042 B. Srikrishna                                                                  
+ 200014040 Rabindra K. Dikshit                                                            
+                                                                       PAGE NO:-         1
+
+SQL> @ d:/amrit/report14.sql;
+
+SYSDATE                                                                                   
+---------                                                                                 
+06-JUN-14                                                                                 
+
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+ TITITLEID FINE AMOUNT                                                                    
+---------- -----------                                                                    
+    222092         325                                                                    
+                                                                       PAGE NO:-         1
+
+SQL> @ d:/amrit/report15.sql;
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+  LUUSERID LUUSERNAME                 Days                                                
+---------- -------------------- ----------                                                
+ 200014042 B. Srikrishna               154                                                
+                                                                       PAGE NO:-         1
+
+SQL> @ d:/amrit/report16.sql;
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+  LUUSERID LUUSERNAME           FINE AMOUNT                                               
+---------- -------------------- -----------                                               
+LFFINENOTE                                                                                
+------------------------------------------------------------------------------------------
+ 200014040 Rabindra K. Dikshit           72                                               
+Lost by electronics Lab during the Strike 1.12.01                                         
+                                                                                          
+ 200425252 Sagar Ranjan Das             325                                               
+Lost by Sagar Ranjan Das & He has deposited  Rs. 325/- with the Accounts on 30.09.04      
+                                                                                          
+                                                                       PAGE NO:-         1
+
+SQL> @ d:/amrit/report17.sql;
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BTBOOKTR                                                                                  
+--------                                                                                  
+Suprabha Kumari Sahu   11000101                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+ISSU                                                                                      
+                                                                                          
+Sagar Ranjan Das       11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+ISSU                                                                                      
+                                                                                          
+Sagar Ranjan Das       11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BTBOOKTR                                                                                  
+--------                                                                                  
+ISSU                                                                                      
+                                                                                          
+Suprabha Kumari Sahu   11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+ISSU                                                                                      
+                                                                                          
+Suprabha Kumari Sahu   11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+ISSU                                                                                      
+                                                                                          
+Suprabha Kumari Sahu   11003201                                                           
+Theory & Problems of Complex Variables                                                    
+ISSU                                                                                      
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BTBOOKTR                                                                                  
+--------                                                                                  
+                                                                                          
+Rabindra K. Dikshit    11003201                                                           
+Theory & Problems of Complex Variables                                                    
+ISSU                                                                                      
+                                                                                          
+Rabindra K. Dikshit    11003201                                                           
+Theory & Problems of Complex Variables                                                    
+ISSU                                                                                      
+                                                                                          
+Ragini Banerjee        11000101                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+ISSU                                                                                      
+                                                                                          
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BTBOOKTR                                                                                  
+--------                                                                                  
+B. Srikrishna          11000101                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+ISSU                                                                                      
+                                                                                          
+B. Srikrishna          11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+ISSU                                                                                      
+                                                                                          
+Suprabha Kumari Sahu   11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+REIS                                                                                      
+                                                                                          
+Suprabha Kumari Sahu   11000103                                                           
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BTBOOKTR                                                                                  
+--------                                                                                  
+Advanced Engineering Mathematics (5th Edn)                                                
+REIS                                                                                      
+                                                                                          
+B. Srikrishna          11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+REIS                                                                                      
+                                                                                          
+Mousumi Bej            11003201                                                           
+Theory & Problems of Complex Variables                                                    
+REIS                                                                                      
+                                                                                          
+Mousumi Bej            11003201                                                           
+Theory & Problems of Complex Variables                                                    
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BTBOOKTR                                                                                  
+--------                                                                                  
+REIS                                                                                      
+                                                                                          
+Suprabha Kumari Sahu   11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+RET                                                                                       
+                                                                                          
+Suprabha Kumari Sahu   11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+RET                                                                                       
+                                                                                          
+Ragini Banerjee        11000101                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+RET                                                                                       
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BTBOOKTR                                                                                  
+--------                                                                                  
+                                                                                          
+Ragini Banerjee        11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+RET                                                                                       
+                                                                                          
+Akankshaya Pandey      11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+RET                                                                                       
+                                                                                          
+Akankshaya Pandey      11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+RET                                                                                       
+                                                                                          
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BTBOOKTR                                                                                  
+--------                                                                                  
+Akankshaya Pandey      11003201                                                           
+Theory & Problems of Complex Variables                                                    
+RET                                                                                       
+                                                                                          
+Gayatri Sahu           11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+RET                                                                                       
+                                                                                          
+Gayatri Sahu           11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+RET                                                                                       
+                                                                                          
+Gayatri Sahu           11000101                                                           
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BTBOOKTR                                                                                  
+--------                                                                                  
+Advanced Engineering Mathematics (5th Edn)                                                
+RET                                                                                       
+                                                                                          
+B. Srikrishna          11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+RET                                                                                       
+                                                                                          
+B. Srikrishna          11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+RET                                                                                       
+                                                                                          
+B. Srikrishna          11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BTBOOKTR                                                                                  
+--------                                                                                  
+RET                                                                                       
+                                                                                          
+Mousumi Bej            11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+RET                                                                                       
+                                                                                          
+Mousumi Bej            11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+RET                                                                                       
+                                                                                          
+                                                                       PAGE NO:-        10
+
+31 rows selected.
+
+SQL> set linesize 150
+SQL> set pagesize 60
+SQL> @ d:/amrit/report18.sql;
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+Trans Number                                                                              
+------------                                                                              
+           5                                                                              
+          11                                                                              
+          15                                                                              
+                                                                       PAGE NO:-         1
+
+SQL> @ d:/amrit/report19.sql;
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+BKINDEXNUM                                                                                
+----------                                                                                
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TOPICNAME                      BS                                                         
+------------------------------ --                                                         
+ 522116103                                                                                
+Siddhartha                                                                                
+NA                             IS                                                         
+                                                                                          
+                                                                       PAGE NO:-         1
+
+SQL> @ d:/amrit/report20.sql;
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+BKINDEXNUM                                                                                
+----------                                                                                
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TOPICNAME                      BS                                                         
+------------------------------ --                                                         
+ 522116103                                                                                
+Siddhartha                                                                                
+NA                             IS                                                         
+                                                                                          
+                                                                       PAGE NO:-         1
+
+SQL> @ d:/amrit/report21.sql;
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TOPICNAME                      SUBJECTNAME                                                
+------------------------------ --------------------                                       
+Mathematical Methods for Engineers and Physicists                                         
+ENGINEERING MATHEMATICS        MATHEMATICS                                                
+                                                                                          
+                                                                       PAGE NO:-         1
+
+SQL> @ d:/amrit/report22.sql;
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+BTBOOKTR  TITITLEID                                                                       
+-------- ----------                                                                       
+ISSU          10032                                                                       
+ISSU          10032                                                                       
+ISSU          10032                                                                       
+REIS          10032                                                                       
+REIS          10032                                                                       
+RET           10032                                                                       
+                                                                       PAGE NO:-         1
+
+6 rows selected.
+
+SQL> @ d:/amrit/report23.sql;
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+BTBOOKTR  TITITLEID                                                                       
+-------- ----------                                                                       
+ISSU          10104                                                                       
+ISSU          10104                                                                       
+ISSU          10104                                                                       
+RET           10104                                                                       
+RET           10104                                                                       
+RET           10104                                                                       
+ISSU          10104                                                                       
+RET           10104                                                                       
+RET           10104                                                                       
+RET           10104                                                                       
+RET           10104                                                                       
+RET           10104                                                                       
+RET           10104                                                                       
+RET           10104                                                                       
+
+BTBOOKTR  TITITLEID                                                                       
+-------- ----------                                                                       
+                                                                       PAGE NO:-         1
+
+14 rows selected.
+
+SQL> @ d:/amrit/report24.sql;
+SP2-0310: unable to open file "d:/amrit/report24.sql"
+SQL> @ d:/amrit/report25.sql;
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BSBOOKTRA                                                                                 
+---------                                                                                 
+Mousumi Bej            11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+23-SEP-04                                                                                 
+                                                                                          
+Gayatri Sahu           11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+26-APR-03                                                                                 
+                                                                                          
+Gayatri Sahu           11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BSBOOKTRA                                                                                 
+---------                                                                                 
+26-APR-03                                                                                 
+                                                                                          
+Mousumi Bej            11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+23-SEP-04                                                                                 
+                                                                                          
+                                                                       PAGE NO:-         2
+
+SQL> @ d:/amrit/report26.sql;
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BSBOOKTRA                                                                                 
+---------                                                                                 
+Suprabha Kumari Sahu   11000101                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+29-JUN-01                                                                                 
+                                                                                          
+Ragini Banerjee        11000101                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+21-NOV-02                                                                                 
+                                                                                          
+B. Srikrishna          11000101                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BSBOOKTRA                                                                                 
+---------                                                                                 
+27-JAN-04                                                                                 
+                                                                                          
+Ragini Banerjee        11000101                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+24-JUN-02                                                                                 
+                                                                                          
+Gayatri Sahu           11000101                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+12-AUG-03                                                                                 
+                                                                                          
+Sagar Ranjan Das       11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+09-NOV-01                                                                                 
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BSBOOKTRA                                                                                 
+---------                                                                                 
+                                                                                          
+Suprabha Kumari Sahu   11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+28-JUN-01                                                                                 
+                                                                                          
+Suprabha Kumari Sahu   11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+21-JUN-01                                                                                 
+                                                                                          
+B. Srikrishna          11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+02-FEB-04                                                                                 
+                                                                                          
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BSBOOKTRA                                                                                 
+---------                                                                                 
+Ragini Banerjee        11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+27-SEP-02                                                                                 
+                                                                                          
+Suprabha Kumari Sahu   11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+18-JUL-01                                                                                 
+                                                                                          
+Suprabha Kumari Sahu   11003201                                                           
+Theory & Problems of Complex Variables                                                    
+04-APR-02                                                                                 
+                                                                                          
+Rabindra K. Dikshit    11003201                                                           
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BSBOOKTRA                                                                                 
+---------                                                                                 
+Theory & Problems of Complex Variables                                                    
+23-APR-02                                                                                 
+                                                                                          
+Rabindra K. Dikshit    11003201                                                           
+Theory & Problems of Complex Variables                                                    
+10-MAY-02                                                                                 
+                                                                                          
+Mousumi Bej            11003201                                                           
+Theory & Problems of Complex Variables                                                    
+29-SEP-04                                                                                 
+                                                                                          
+Mousumi Bej            11003201                                                           
+Theory & Problems of Complex Variables                                                    
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BSBOOKTRA                                                                                 
+---------                                                                                 
+12-OCT-04                                                                                 
+                                                                                          
+Akankshaya Pandey      11003201                                                           
+Theory & Problems of Complex Variables                                                    
+01-MAR-03                                                                                 
+                                                                                          
+Suprabha Kumari Sahu   11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+02-MAR-02                                                                                 
+                                                                                          
+Sagar Ranjan Das       11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+10-NOV-01                                                                                 
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BSBOOKTRA                                                                                 
+---------                                                                                 
+                                                                                          
+B. Srikrishna          11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+14-SEP-04                                                                                 
+                                                                                          
+B. Srikrishna          11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+13-SEP-04                                                                                 
+                                                                                          
+Suprabha Kumari Sahu   11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+21-MAR-02                                                                                 
+                                                                                          
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BSBOOKTRA                                                                                 
+---------                                                                                 
+Akankshaya Pandey      11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+15-JAN-03                                                                                 
+                                                                                          
+Akankshaya Pandey      11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+10-FEB-03                                                                                 
+                                                                                          
+Suprabha Kumari Sahu   11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+08-APR-02                                                                                 
+                                                                                          
+B. Srikrishna          11010402                                                           
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+BSBOOKTRA                                                                                 
+---------                                                                                 
+Mathematical Methods for Engineers and Physicists                                         
+23-FEB-04                                                                                 
+                                                                                          
+B. Srikrishna          11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+25-NOV-03                                                                                 
+                                                                                          
+                                                                       PAGE NO:-         9
+
+27 rows selected.
+
+SQL> @ d:/amrit/report27.sql;
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_                                                                                       
+---                                                                                       
+Mousumi Bej            11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+SEP                                                                                       
+                                                                                          
+Mousumi Bej            11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+SEP                                                                                       
+                                                                                          
+B. Srikrishna          11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_                                                                                       
+---                                                                                       
+SEP                                                                                       
+                                                                                          
+B. Srikrishna          11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+SEP                                                                                       
+                                                                                          
+Mousumi Bej            11003201                                                           
+Theory & Problems of Complex Variables                                                    
+SEP                                                                                       
+                                                                                          
+Ragini Banerjee        11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+SEP                                                                                       
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_                                                                                       
+---                                                                                       
+                                                                                          
+Suprabha Kumari Sahu   11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+JUN                                                                                       
+                                                                                          
+Suprabha Kumari Sahu   11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+JUN                                                                                       
+                                                                                          
+Ragini Banerjee        11000101                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+JUN                                                                                       
+                                                                                          
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_                                                                                       
+---                                                                                       
+Suprabha Kumari Sahu   11000101                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+JUN                                                                                       
+                                                                                          
+                                                                       PAGE NO:-         4
+
+10 rows selected.
+
+SQL> @ d:/amrit/report28.sql;
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_C                                                                                      
+----                                                                                      
+B. Srikrishna          11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+2003                                                                                      
+                                                                                          
+Gayatri Sahu           11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+2003                                                                                      
+                                                                                          
+Akankshaya Pandey      11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_C                                                                                      
+----                                                                                      
+2003                                                                                      
+                                                                                          
+Akankshaya Pandey      11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+2003                                                                                      
+                                                                                          
+Gayatri Sahu           11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+2003                                                                                      
+                                                                                          
+Akankshaya Pandey      11003201                                                           
+Theory & Problems of Complex Variables                                                    
+2003                                                                                      
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_C                                                                                      
+----                                                                                      
+                                                                                          
+Gayatri Sahu           11000101                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+2003                                                                                      
+                                                                                          
+Sagar Ranjan Das       11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+2001                                                                                      
+                                                                                          
+Suprabha Kumari Sahu   11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+2001                                                                                      
+                                                                                          
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_C                                                                                      
+----                                                                                      
+Suprabha Kumari Sahu   11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+2001                                                                                      
+                                                                                          
+Suprabha Kumari Sahu   11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+2001                                                                                      
+                                                                                          
+Sagar Ranjan Das       11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+2001                                                                                      
+                                                                                          
+Suprabha Kumari Sahu   11000101                                                           
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_C                                                                                      
+----                                                                                      
+Advanced Engineering Mathematics (5th Edn)                                                
+2001                                                                                      
+                                                                                          
+Mousumi Bej            11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+2004                                                                                      
+                                                                                          
+B. Srikrishna          11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+2004                                                                                      
+                                                                                          
+Mousumi Bej            11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_C                                                                                      
+----                                                                                      
+2004                                                                                      
+                                                                                          
+B. Srikrishna          11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+2004                                                                                      
+                                                                                          
+B. Srikrishna          11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+2004                                                                                      
+                                                                                          
+Mousumi Bej            11003201                                                           
+Theory & Problems of Complex Variables                                                    
+2004                                                                                      
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_C                                                                                      
+----                                                                                      
+                                                                                          
+Mousumi Bej            11003201                                                           
+Theory & Problems of Complex Variables                                                    
+2004                                                                                      
+                                                                                          
+B. Srikrishna          11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+2004                                                                                      
+                                                                                          
+B. Srikrishna          11000101                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+2004                                                                                      
+                                                                                          
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_C                                                                                      
+----                                                                                      
+                                                                       PAGE NO:-         7
+
+22 rows selected.
+
+SQL> @ d:/amrit/report29.sql;
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_                                                                                       
+---                                                                                       
+B. Srikrishna          11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+FEB                                                                                       
+                                                                                          
+Akankshaya Pandey      11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+FEB                                                                                       
+                                                                                          
+B. Srikrishna          11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_                                                                                       
+---                                                                                       
+FEB                                                                                       
+                                                                                          
+Rabindra K. Dikshit    11003201                                                           
+Theory & Problems of Complex Variables                                                    
+MAY                                                                                       
+                                                                                          
+Gayatri Sahu           11000101                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+AUG                                                                                       
+                                                                                          
+Akankshaya Pandey      11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+JAN                                                                                       
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_                                                                                       
+---                                                                                       
+                                                                                          
+B. Srikrishna          11000101                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+JAN                                                                                       
+                                                                                          
+Suprabha Kumari Sahu   11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+MAR                                                                                       
+                                                                                          
+Suprabha Kumari Sahu   11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+MAR                                                                                       
+                                                                                          
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_                                                                                       
+---                                                                                       
+Akankshaya Pandey      11003201                                                           
+Theory & Problems of Complex Variables                                                    
+MAR                                                                                       
+                                                                                          
+Mousumi Bej            11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+SEP                                                                                       
+                                                                                          
+Mousumi Bej            11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+SEP                                                                                       
+                                                                                          
+B. Srikrishna          11010401                                                           
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_                                                                                       
+---                                                                                       
+Mathematical Methods for Engineers and Physicists                                         
+SEP                                                                                       
+                                                                                          
+B. Srikrishna          11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+SEP                                                                                       
+                                                                                          
+Mousumi Bej            11003201                                                           
+Theory & Problems of Complex Variables                                                    
+SEP                                                                                       
+                                                                                          
+Ragini Banerjee        11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_                                                                                       
+---                                                                                       
+SEP                                                                                       
+                                                                                          
+Mousumi Bej            11003201                                                           
+Theory & Problems of Complex Variables                                                    
+OCT                                                                                       
+                                                                                          
+Suprabha Kumari Sahu   11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+JUL                                                                                       
+                                                                                          
+                                                                       PAGE NO:-         6
+
+18 rows selected.
+
+SQL> @ d:/amrit/report30.sql;
+
+                                        FINE DETAIL                                       
+                       National Institute Of Science and Technology                       
+                               Pallur Hills,Berhampur-761008                              
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_C                                                                                      
+----                                                                                      
+B. Srikrishna          11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+2003                                                                                      
+                                                                                          
+Gayatri Sahu           11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+2003                                                                                      
+                                                                                          
+Akankshaya Pandey      11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_C                                                                                      
+----                                                                                      
+2003                                                                                      
+                                                                                          
+Akankshaya Pandey      11010402                                                           
+Mathematical Methods for Engineers and Physicists                                         
+2003                                                                                      
+                                                                                          
+Gayatri Sahu           11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+2003                                                                                      
+                                                                                          
+Akankshaya Pandey      11003201                                                           
+Theory & Problems of Complex Variables                                                    
+2003                                                                                      
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_C                                                                                      
+----                                                                                      
+                                                                                          
+Gayatri Sahu           11000101                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+2003                                                                                      
+                                                                                          
+Sagar Ranjan Das       11010401                                                           
+Mathematical Methods for Engineers and Physicists                                         
+2001                                                                                      
+                                                                                          
+Suprabha Kumari Sahu   11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+2001                                                                                      
+                                                                                          
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_C                                                                                      
+----                                                                                      
+Suprabha Kumari Sahu   11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+2001                                                                                      
+                                                                                          
+Suprabha Kumari Sahu   11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+2001                                                                                      
+                                                                                          
+Sagar Ranjan Das       11000103                                                           
+Advanced Engineering Mathematics (5th Edn)                                                
+2001                                                                                      
+                                                                                          
+Suprabha Kumari Sahu   11000101                                                           
+
+LUUSERNAME           BKINDEXNUM                                                           
+-------------------- ----------                                                           
+TITITLE                                                                                   
+------------------------------------------------------------------------------------------
+TO_C                                                                                      
+----                                                                                      
+Advanced Engineering Mathematics (5th Edn)                                                
+2001                                                                                      
+                                                                                          
+                                                                       PAGE NO:-         5
+
+13 rows selected.
+
+SQL> spool off

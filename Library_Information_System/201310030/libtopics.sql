@@ -1,0 +1,13 @@
+insert into libtopics values(3,10,'ENGINEERING MATHEMATICS');
+insert into libtopics values(4,10,'CALCULUS');
+insert into libtopics values(5,10,'ANALYSIS');
+insert into libtopics values(7,10,'PROBABILITY and STATISTICS');
+insert into libtopics values(9,10,'ALGEBRA');
+insert into libtopics values(13,10,'FINITE ELEMENT METHOD');
+insert into libtopics values(342,22,'NA');
+insert into libtopics values(378,22,'PHILOSOPHY');
+insert into libtopics values(382,22,'SHORT STORY');
+insert into libtopics values(383,22,'AUTOBIOGRAPHY');
+insert into libtopics values(384,22,'NON-FICTION');
+insert into libtopics values(386,22,'FICTION');
+insert into libtopics values(380,22,'CULTURAL');
